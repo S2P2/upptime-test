@@ -9,13 +9,17 @@ sites:
     url: https://en.wikipedia.org
   - name: Hacker News
     url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Siriraj Main Website (TH)
+    url: https://www2.si.mahidol.ac.th/th/
+  - name: Siriraj Main Website (EN)
+    url: https://www2.si.mahidol.ac.th/en/
+  # - name: Test Broken Site
+  #   url: https://thissitedoesnotexist.koj.co
+  # - name: IPv6 test
+  #   url: forwardemail.net
+  #   port: 80
+  #   check: "tcp-ping"
+  #   ipv6: true
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
